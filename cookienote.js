@@ -23,9 +23,8 @@ var cookieNotice = (function (options) {
                 style: {position: "fixed",
                     bottom: "0",
                     width: "100%",
-                    height: "60px",
-                    padding: "0",
-                    "line-height": "60px",
+                    padding: "10px",
+                    "line-height": "normal",
                     "background-color": "#f5f5f5",
                     "opacity": "0.95"
                 },
@@ -56,5 +55,5 @@ var cookieNotice = (function (options) {
     return cookieNotice;
 });
 $(document).ready(function () {
-    cookieNotice().check();
+   cookieNotice().check();
 });
